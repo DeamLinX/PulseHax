@@ -1,29 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+
 h1 {
-    color: #f0f0f0;
-    background: linear-gradient(
-        to Right, 
-        #fff100,
-        #9ae900,
-        #15ffe1,
-        #816aff,
-        #ff0040,
-        #ffb53f, 
-        #fff100,
-        #9ae900,
-        #15ffe1
-    );
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-stroke: 0.2em transparent;
+    color: #172e29;
     text-align: center;
 }
 
 body::-webkit-scrollbar{
     display: none;
 }
+
 body{
-    width:200px;
+    width:220px;
     background-color: #f0f0f0;
+	font-family: 'Quicksand', sans-serif;
+	zoom:110%;
+	user-select:none
 }
 
 .dark-mode:disabled {
@@ -31,7 +22,7 @@ body{
 }
 
 .dark-mode {
-    background-color: #232323;
+    background-color: #172e29;
     color: #f0f0f0;
 }
 
@@ -46,7 +37,7 @@ body{
     position: relative;
 }
 .topnav a.dark-mode {
-    background: #232323;
+    background: #172e29;
 }
 .topnav a {
     float: left;
@@ -63,17 +54,25 @@ body{
 }
 
 .topnav a.curr {
-    background-color: #04aa6d;
+    background-color: #1a9673;
     color: white;
 }
 
 .topnav a:hover {
-background-color: #ddd;
-color: black;
+background-color: #c9c9c9;
+}
+
+.topnav a.dark-mode:hover {
+background-color: #2e403a;
+}
+
+.topnav a.curr:hover {
+    background-color: #20ba8e;
 }
 
 legend {
     font-size: 13px;
+	border-color: blue;
 }
 
 option {
@@ -104,42 +103,48 @@ input {
 }
 input:hover {
     background-color: rgb(150, 150, 150);
-} input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
+} 
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
 -webkit-appearance: none;
 -moz-appearance: textfield;
 margin: 0;
 }
+
 input[type=checkbox] {
     width:auto;
 }
 
+input,select,option {
+    font-family: 'Quicksand', sans-serif;
+}
+
 .dark-mode {
-    background-color: #232323;
+    background-color: #172e29;
     color: #f0f0f0;
 }
 
 h1.dark-mode {
-    color:#232323
+    color:#f0f0f0;
 }
 
 option.dark-mode {
-    background-color: rgb(50, 50, 50)
+    background-color: rgb(45, 59, 55);
 }
 
 select.dark-mode {
-    background-color: rgb(50, 50, 50);
+    background-color: rgb(45, 59, 55);
 }
 
 input.dark-mode {
-    background-color: rgb(50, 50, 50);
+    background-color: rgb(45, 59, 55);
 }
 input:hover.dark-mode {
-    background-color: rgb(100, 100, 100);
+    background-color: rgb(64, 84, 78);
 }
 
 select:hover.dark-mode {
-    background-color: rgb(100, 100, 100);
+    background-color: rgb(64, 84, 78);
 }
 
 .rf_button {
