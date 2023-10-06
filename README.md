@@ -1,5 +1,8 @@
 # PulseHax
-### _Hacking pulsus has never been easier_
+### _Hacking Pulsus has never been easier_
+
+## <b>About this Fork</b>
+TODO
 
 ## <b>Features</b>
 - <b>Copy Ranked levels</b> locally and look at the patterns in the editor!
@@ -10,7 +13,7 @@
 - Mindblock the start of maps faster than ever with a <b>quick retry</b> key bound to tab!
 - ... and much, much more!
 
-> At this time, <b>PulxeHax is only compatible with Chromium based browsers</b>, _plus limited functionality for Firefox, however, that was purely unintentional and may be subject to change_. 
+> At this time, <b>PulseHax is only compatible with Chromium based browsers</b>, _plus limited functionality for Firefox, however, that was purely unintentional and may be subject to change_. 
 
 ## <b>Running Pulsehax</b>
 1. Clone the repository. If you are unfamiliar with git, click the green CODE button in the upper right, then select download zip, and finally extract all files. 
@@ -31,4 +34,4 @@ By downloading PulseHax, you agree to the following terms of service:
 ## <b>Pulsus Terms of Service for Third-Party Modifications</b>
 - Modifying an awarded level will get the level unawarded with no possibility of being reawarded
 - Having any third-party modifications installed/enabled (even if not in use) while playing awarded levels can put your account at risk of being banned. If you are using a chrome extension, you have the option to disable it through the extensions bar. Please make sure to reload the page after enabling/disabling any extensions to make sure they have been fully activated/deactivated.
-- Uploading levels or making changes to your account page that could not be normally done outside of the use of third-party modifications could put your account at risk of an upload ban, which would no longer allow you to upload new levels to the server. This does not prevent their use for QOL changes to the editor though, such as tools or exporting functionality.
+- Uploading levels or making changes to your account page that could not be normally done outside of the use of third-party modifications could put your account at risk of an upload ban, which would no longer allow you to upload new levels to the server. This does not prevent their use for QoL changes to the editor though, such as tools or exporting functionality.
