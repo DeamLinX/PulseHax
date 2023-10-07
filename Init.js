@@ -162,11 +162,11 @@ window.addEventListener("SetupComplete", function() {
 });
 
 window.addEventListener("keydown", function(e) {
-  if("\\" === e.code){
+  if(220 === e.keyCode){
     e.preventDefault();
     if(!1 === game.edit && 1 === game.disMode && screen === "game"){
       lvlHowl[game.song].pause()
-      game.effectsCache.vignette = 15
+      game.effectsCache.vignette = 10
       lowLag.play("retry",".5");
       game.disMode = 1,
       game.retry = !0,
