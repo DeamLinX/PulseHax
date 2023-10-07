@@ -162,7 +162,7 @@ window.addEventListener("SetupComplete", function() {
 });
 
 window.addEventListener("keydown", function(e) {
-  if("Tab" === e.code){
+  if("\\" === e.code){
     e.preventDefault();
     if(!1 === game.edit && 1 === game.disMode && screen === "game"){
       lvlHowl[game.song].pause()
